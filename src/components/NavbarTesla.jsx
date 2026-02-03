@@ -3,19 +3,19 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
+const menu = [
+  { name: "Home", id: "home" },
+  { name: "Trust", id: "trust" },
+  { name: "About", id: "about" },
+  { name: "Menu", id: "menu" },
+  { name: "Gallery", id: "gallery" },
+  { name: "Contact", id: "contact" },
+];
+
 export default function NavbarTesla() {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [active, setActive] = useState("home");
-
-  const menu = [
-    { name: "Home", id: "home" },
-    { name: "Trust", id: "trust" },
-    { name: "About", id: "about" },
-    { name: "Menu", id: "menu" },
-    { name: "Gallery", id: "gallery" },
-    { name: "Contact", id: "contact" },
-  ];
 
   /* ================= SCROLL BG ================= */
   useEffect(() => {
