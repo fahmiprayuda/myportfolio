@@ -1,12 +1,15 @@
 import { FaInstagram, FaFacebookF, FaTelegramPlane } from "react-icons/fa";
+import Image from "next/image";
 
 export default function Footer() {
   return (
     <footer className="bg-black text-gray-400">
-      <div className="max-w-7xl mx-auto px-6 py-14">
+      <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           {/* BRAND */}
-          <h2 className="text-white font-semibold tracking-wide">RS Al-Arif</h2>
+          <h2 className="text-white font-semibold tracking-wide">
+            RS Al-Arif Ciamis
+          </h2>
 
           {/* SOCIAL MEDIA */}
           <div className="flex items-center gap-4">
@@ -57,7 +60,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-10 text-center text-xs text-gray-500">
+        <div className="mt-10 text-center text-sm text-gray-500">
           © {new Date().getFullYear()} RS Al-Arif. All rights reserved.
         </div>
       </div>
