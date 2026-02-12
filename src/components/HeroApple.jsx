@@ -23,7 +23,7 @@ export default function Hero() {
       {/* Background Image */}
       <motion.div style={{ scale }} className="absolute inset-0">
         <Image
-          src="/images/hero/rs.jpg" // GANTI GAMBAR LO
+          src="/images/hero/alarif.jpg" // GANTI GAMBAR LO
           fill
           priority
           className="object-cover"
