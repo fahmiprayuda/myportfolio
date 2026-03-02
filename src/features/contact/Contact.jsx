@@ -129,7 +129,7 @@ export default function Contact() {
             <div className="absolute inset-0 rounded-[40%] bg-gradient-to-tr from-blue-500 via-cyan-400 to-purple-500 blur-2xl opacity-40" />
 
             {/* image */}
-            <SpotlightImage src="/about/1.jpg" alt="profile" />
+            <SpotlightImage src="/contact/1.jpg" alt="contact" />
           </div>
         </motion.div>
       </div>
