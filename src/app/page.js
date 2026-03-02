@@ -1,10 +1,19 @@
+import SnapScrollProvider from "@/components/providers/SnapScrollProvider";
+import Navbar from "@/components/layout/Navbar";
+import About from "@/features/about";
+import Hero from "@/features/hero";
+import Projects from "@/features/projects";
+import Contact from "@/features/contact";
+
 export default function Page()  {
+
   return (
-    <>
-    <div className="font-heading flex justify-center items-center mt-20 text-6xl text-red-500 font-bold">
-      <h1>Template 🚀</h1>
-    </div>
-    <p className="flex justify-center text-xl">This is a simple template for Next.js projects.</p>
-</>
+    <SnapScrollProvider>
+          <Navbar />
+          <Hero />
+          <About />
+          <Projects/>
+          <Contact />
+    </SnapScrollProvider>
   );
 }

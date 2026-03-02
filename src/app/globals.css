@@ -5,3 +5,16 @@
 html {
   scroll-behavior: smooth;
 }
+
+body {
+  overflow-y: scroll;
+  scroll-snap-type: y proximity;
+}
+
+section {
+  scroll-snap-align: start;
+}
+
+.perspective {
+  perspective: 1200px;
+}
