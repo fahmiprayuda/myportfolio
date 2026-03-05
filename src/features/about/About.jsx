@@ -33,12 +33,12 @@ export default function About() {
             viewport={{ once: false }}
             className="mt-6 max-w-xl text-gray-600 dark:text-gray-400 leading-relaxed"
           >
-            I`m a passionate frontend developer with a knack for crafting
+            I&apos;m a passionate frontend developer with a knack for crafting
             beautiful and functional web applications. With a strong foundation
             in React and Next.js, I specialize in building responsive,
             user-friendly interfaces that provide seamless experiences across
             devices. I thrive on turning complex problems into elegant
-            solutions, and I`m always eager to learn new technologies and
+            solutions, and I&apos;m always eager to learn new technologies and
             improve my skills.
           </motion.p>
 

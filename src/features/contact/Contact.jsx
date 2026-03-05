@@ -39,9 +39,8 @@ export default function Contact() {
             viewport={{ once: false }}
             className="mt-6 max-w-xl text-gray-600 dark:text-gray-400 leading-relaxed"
           >
-            I`m a passionate frontend developer with a knack for crafting
-            beautiful and functional web applications. With a strong foundation
-            in React and Next.js.
+            I&apos;m always open to discussing new opportunities,
+            collaborations, or interesting projects. Feel free to reach out!
           </motion.p>
 
           <motion.div
