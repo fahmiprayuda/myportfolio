@@ -1,17 +1,17 @@
 export const projects = [
-  {
-  title: "Company Profile RS",
-  slug: "company-profile-rs",
-  desc: "Responsive company profile website for healthcare services",
-  tech: ["Next.js", "Tailwind CSS", "Responsive Design"],
-  category: "web",
-  image: "/projects/company-profile-rs.png",
-  content: `
-## Company Profile RS
+  //   {
+  //     title: "Company Profile RS",
+  //     slug: "company-profile-rs",
+  //     desc: "Responsive company profile website for healthcare services",
+  //     tech: ["Next.js", "Tailwind CSS", "Responsive Design"],
+  //     category: "web",
+  //     image: "/projects/company-profile-rs.png",
+  //     content: `
+  // ## Company Profile RS
 
-Built to showcase a professional profile for a healthcare provider with responsive visuals and SEO friendly layout.
-  `,
-},
+  // Built to showcase a professional profile for a healthcare provider with responsive visuals and SEO friendly layout.
+  //   `,
+  //   },
   {
     title: "Portfolio Website",
     slug: "portfolio-website",
@@ -19,18 +19,18 @@ Built to showcase a professional profile for a healthcare provider with responsi
     tech: ["Next.js", "Tailwind", "Framer Motion"],
     category: "web",
     featured: true,
-    image: "/projects/portfolio.png",
+    image: "/projects/1.jpg",
     content:
       "This project showcases my skills in building modern UI with animation and performance optimization.",
   },
   {
-    title: "Realtime Chat App",
-    slug: "chat-app",
-    desc: "Realtime messaging app",
-    tech: ["React", "Firebase"],
+    title: "Audit Monitoring System",
+    slug: "audit-monitoring-system",
+    desc: "Audit monitoring solution for internal control and compliance, dashboard and reporting system for audit findings.",
+    tech: ["React", "Node.js", "MySQL", "Tailwind CSS"],
     category: "app",
-    image: "/projects/chat.png",
+    image: "/projects/ams.jpg",
     content:
-      "A realtime chat app supporting authentication, live messaging, and notifications.",
+      "System designed to streamline audit processes, providing real-time monitoring and comprehensive reporting for internal control and compliance.",
   },
 ];

@@ -97,6 +97,7 @@ export default function AboutPage() {
               "Node.js",
               "Git",
               "REST API",
+              "Laravel",
             ].map((skill) => (
               <span
                 key={skill}

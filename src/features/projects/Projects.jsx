@@ -49,7 +49,7 @@ export default function Projects() {
               href="/projects"
               className="px-8 py-3 rounded-full bg-blue-600 text-white font-semibold hover:bg-blue-700 transition"
             >
-              more about me...
+              view all projects...
             </Link>
           </motion.div>
         </div>
