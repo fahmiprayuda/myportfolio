@@ -7,13 +7,13 @@ import Footer from "@/components/layout/Footer";
 
 const heading = Montserrat_Alternates({
   subsets: ["latin"],
-  weight: ["600","700"],
+  weight: ["600", "700"],
   variable: "--font-heading",
 });
 
 const body = KoHo({
   subsets: ["latin"],
-  weight: ["400","500"],
+  weight: ["400", "500"],
   variable: "--font-body",
 });
 
@@ -28,8 +28,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${heading.variable} ${body.variable}`}>
-      <body className="font-body bg-white text-gray-900">
-        
+      <body className="font-body bg-white text-gray-900 dark:bg-black dark:text-gray-200">
+
         <Navbar />
         <SmoothProvider>{children}</SmoothProvider>
         <Footer />

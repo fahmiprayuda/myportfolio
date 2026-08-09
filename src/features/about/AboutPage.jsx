@@ -29,7 +29,32 @@ export default function AboutPage() {
             I design and build modern web experiences focused on performance,
             aesthetics, and seamless interaction.
           </motion.p>
+
+          {/* RESUME */}
+          <motion.a
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.97 }}
+            href="/about/resume"
+            className="
+          inline-flex items-center gap-2
+          rounded-full
+          bg-gradient-to-r
+          from-blue-600
+          via-cyan-500
+          to-purple-500
+          px-7 py-3
+          font-semibold
+          text-white
+          shadow-lg
+          shadow-cyan-500/20
+        "
+          >
+            Resume
+          </motion.a>
+
         </section>
+
+
 
         {/* GLASS CARD BIO */}
         <section className="grid md:grid-cols-2 gap-10 items-center">
