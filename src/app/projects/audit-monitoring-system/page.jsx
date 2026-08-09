@@ -12,34 +12,52 @@ import {
 
 const screenshots = [
     {
-        image: "/projects/audit-monitoring/dashboard.png",
-        title: "Executive Dashboard",
-        description:
-            "A centralized dashboard providing an overview of audit findings, action plans, risks, and overdue items.",
-    },
-    {
-        image: "/projects/audit-monitoring/projects.png",
+        image: "/projects/audit-monitoring-system/project.png",
         title: "Audit Projects",
         description:
             "Manage audit projects, timelines, and overall audit progress in one place.",
     },
     {
-        image: "/projects/audit-monitoring/findings.png",
+        image: "/projects/audit-monitoring-system/create-finding.png",
+        title: "Create Findings",
+        description:
+            "Easily create audit findings with detailed descriptions, risk levels, and associated corrective actions.",
+    },
+    {
+        image: "/projects/audit-monitoring-system/findings.png",
         title: "Audit Findings",
         description:
             "Track findings by risk, department, status, and related corrective actions.",
     },
     {
-        image: "/projects/audit-monitoring/action-plans.png",
+        image: "/projects/audit-monitoring-system/action-plans.png",
         title: "Action Plans",
         description:
             "Monitor corrective actions, due dates, statuses, and overdue action plans.",
     },
     {
-        image: "/projects/audit-monitoring/executive-summary.png",
-        title: "Executive Summary",
+        image: "/projects/audit-monitoring-system/create-user.png",
+        title: "Create Users",
         description:
-            "Visual insights that help management quickly understand audit performance and outstanding issues.",
+            "Easily create and manage user accounts within the audit monitoring system.",
+    },
+    {
+        image: "/projects/audit-monitoring-system/create-company.png",
+        title: "Create Company",
+        description:
+            "Easily create and manage company profiles within the audit monitoring system.",
+    },
+    {
+        image: "/projects/audit-monitoring-system/add-department.png",
+        title: "Create Department",
+        description:
+            "Easily create and manage departments within the audit monitoring system.",
+    },
+    {
+        image: "/projects/audit-monitoring-system/dashboard.png",
+        title: "Executive Dashboard",
+        description:
+            "A centralized dashboard providing an overview of audit findings, action plans, risks, and overdue items.",
     },
 ];
 
@@ -315,16 +333,16 @@ export default function AuditMonitoringSystemPage() {
                                 key={screenshot.image}
                                 onClick={() => setActiveIndex(index)}
                                 className={`
-    group
-    overflow - hidden
-    rounded - xl
-    border
-    transition - all
+                                group
+                                overflow - hidden
+                                rounded - xl
+                                border
+                                transition - all
                                 ${activeIndex === index
                                         ? "border-cyan-500 ring-2 ring-cyan-500/20"
                                         : "border-gray-200 dark:border-white/10 opacity-60 hover:opacity-100"
                                     }
-    `}
+                        `}
                             >
                                 <img
                                     src={screenshot.image}

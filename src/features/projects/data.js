@@ -12,22 +12,22 @@ export const projects = [
   // Built to showcase a professional profile for a healthcare provider with responsive visuals and SEO friendly layout.
   //   `,
   //   },
-  {
-    title: "Portfolio Website",
-    slug: "portfolio-website",
-    desc: "Modern portfolio built with Next.js",
-    tech: ["Next.js", "Tailwind", "Framer Motion"],
-    category: "web",
-    featured: true,
-    image: "/projects/1.jpg",
-    content:
-      "This project showcases my skills in building modern UI with animation and performance optimization.",
-  },
+  // {
+  //   title: "Portfolio Website",
+  //   slug: "portfolio-website",
+  //   desc: "Modern portfolio built with Next.js",
+  //   tech: ["Next.js", "Tailwind", "Framer Motion"],
+  //   category: "web",
+  //   featured: true,
+  //   image: "/projects/1.jpg",
+  //   content:
+  //     "This project showcases my skills in building modern UI with animation and performance optimization.",
+  // },
   {
     title: "Audit Monitoring System",
     slug: "audit-monitoring-system",
     desc: "Audit monitoring solution for internal control and compliance, dashboard and reporting system for audit findings.",
-    tech: ["React", "Node.js", "MySQL", "Tailwind CSS"],
+    tech: ["Next.js", "React", "Node.js", "Laravel 12", "MySQL", "Tailwind CSS"],
     category: "app",
     image: "/projects/ams.jpg",
     content:
