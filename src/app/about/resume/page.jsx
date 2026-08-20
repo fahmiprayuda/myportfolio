@@ -38,7 +38,7 @@ const experiences = [
     {
         role: "Return Administrator",
         company: "blibli.com",
-        period: "July 2019 — Current",
+        period: "July 2019 — June 2025",
         description:
             "Maintained personnel records and updated internal databases to support document management. Handled sensitive information discreetly and collected, arranged, and input information into database systems.",
     },
@@ -139,7 +139,8 @@ export default function ResumePage() {
                     </a>
 
                     <a
-                        href="#"
+                        href="https://www.linkedin.com/in/fahmi-prayuda/"
+                        target="_blank"
                         className="inline-flex items-center gap-2 rounded-full border border-gray-200 dark:border-white/10 bg-white/60 dark:bg-white/5 px-4 py-2 backdrop-blur-xl hover:border-cyan-400 transition"
                     >
                         <Linkedin size={16} />
@@ -404,7 +405,7 @@ export default function ResumePage() {
                     </h3>
 
                     <p className="mt-2 text-gray-600 dark:text-gray-400">
-                        Bachelor of Computer Professional — Web Programming
+                        Bachelor of Computer Professional — Systems Information and Multimedia
                     </p>
                 </motion.div>
             </section>
