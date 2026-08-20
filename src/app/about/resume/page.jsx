@@ -151,7 +151,7 @@ export default function ResumePage() {
                 <motion.a
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.97 }}
-                    href="/cv/cv.pdf"
+                    href="/cv/CV Fahmi Prayuda.pdf"
                     download
                     className="
           inline-flex items-center gap-2
